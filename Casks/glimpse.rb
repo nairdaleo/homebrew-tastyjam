@@ -1,6 +1,6 @@
 cask "glimpse" do
-  version "1.0.0"
-  sha256 "1b12370717c8c6d959147b4d16c075bf8596ea964ad7f0070a172e9d522b747f"
+  version "1.0.1"
+  sha256 "16bca8a8472083da953c513f4fb6cade3e7c2cf16966e7db5f123032819f0084"
 
   url "https://github.com/nairdaleo/Glimpse/releases/download/v#{version}/Glimpse-#{version}.dmg"
   name "Glimpse"
@@ -13,7 +13,7 @@ cask "glimpse" do
   end
 
   auto_updates true
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Glimpse.app"
 
